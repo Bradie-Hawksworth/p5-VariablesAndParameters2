@@ -34,7 +34,8 @@ Add a small description below stating why the addition of a parameter isn't brea
 <details>
   <summary> After the parameter is declared click here </summary>
   Once the parameter is declared, it can be accessed throghout the scope of the function. We are able to reference it and the value of the argument provided.
-  
+  ![image](https://user-images.githubusercontent.com/67816866/150339083-44d240c7-4430-4fe8-b6e4-db06e78542a6.png)
+
   
   * Modify the process within the diceValueOne() function to make use of the size parameter that's being passed in. To see whats going on in more clearly, remove the other function calls of diceValue2-6() from the draw() function for the time being. (These functions can either be deleted or commented out).
   
@@ -45,12 +46,11 @@ Add a small description below stating why the addition of a parameter isn't brea
   
   <details>
     <summary> Click here to see how to use the parameters within code </summary>
-  
-
-    The 
+  ![image](https://user-images.githubusercontent.com/67816866/150339390-468ba508-6fb9-4dc2-87e0-69d62e9b07ff.png)
+    
+    Now that the parameter is being referenced within the function, we need to supply an argument. This is shown within the image above. (for some reason the image above isn't showing within this document, copying the link into a browser should show the image)
 
   </details>
-
 
   ## Task
   * Make the same modifications to the other diceValueX() functions. 
