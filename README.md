@@ -8,41 +8,58 @@ This assignment is going to build on from the p5-DiceFunctions assignment. In th
 
 Over the next couple of Assignments we are going to utilise the functions we have just created in order to make a JavaScript representation of a dice. This will be in the form of a button on the screen that when pressed will generate a representation on screen of a dice roll.
 
-This assignment will focus on learning about variables and function parameters. Links to the p5.js reference pages can be found below. The page links provide more information on the function and let keyword.
+This assignment will focus on learning about function parameters. Links to the p5.js reference pages can be found below. The page links provide more information on the function keyword.
 
-## Variables
-[Mozilla Variable Documentation](https://developer.mozilla.org/en-US/docs/Glossary/Variable) This link will take you to the Mozilla documentation regarding varaibles. A guide on how to declare variables in JavaScript can be found [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#declarations).
+## Parameters
+[Mozilla Parameters Documentation](https://developer.mozilla.org/en-US/docs/Glossary/Parameter) This link will take you to the Mozilla documentation regarding Parameters.
 
-There are three ways to declare variables in JavaScript;
-* Var - 'Declares a variable, optionally initializing it to a value.'
-* Let - 'Declares a block-scoped, local variable, optionally initializing it to a value.'
-* Const - 'Declares a block-scoped, read-only named constant.'
+When using parameters there are two key terms used 'Parameters' and 'Arguments'. The difference between the two terms the following;
+* Function parameters are the names listed in the function's definition.
+* Function arguments are the real values passed to the function.
+* Parameters are initialized to the values of the arguments supplied.
 
-The given definitions mention the term *'Scope'*. A formal definition of scope can be found [here](https://developer.mozilla.org/en-US/docs/Glossary/Scope). Scope
+In terms of scope, a parameter being passed into a function is within the local scope of that function. The value will not be available outside of that function unless it is returned. (Functions with return values will be examined over the next couple of assignments).
 
-The syntax for declaring variables and assigning them a value is as follows;
-  var variableA = "variable A value";
-  let variableB = "variable B value";
-  Const variableC = 1234;
+## Task - Add a parameter to determine the size of the square for the dice.
+To do this we need to edit the function signature of diceValueOne(). To do this we will add a parameter to the function signature like below.
+![image](https://user-images.githubusercontent.com/67816866/150308886-02b319d2-96c4-4338-b160-e760f9fd6b57.png)
 
-## Task - Experiment with variables.
-* Declare a variable **before** the setup() block.
+Like a variable the parameter is a type of holder. The code will still run and produce the expected outcome.
+![image](https://user-images.githubusercontent.com/67816866/150310247-f471105a-b6d8-4bb8-b28e-f456cecce92a.png)
 
-Experiment with console.log(), log the value of the variable within different blocks of code. What is the output in the output window? Are there any errors? Add some screenshots below showing what happened.
+* Why is the code still working? 
+Add a small description below stating why the addition of a parameter isn't breaking the code. Would you expect the code to break?
 
-* Declare a variable **within** the setup() block.
 
-Experiment with console.log(), log the value of the variable within different blocks of code. What is the output in the output window? Are there any errors? Add some screenshots below showing what happened.
+<details>
+  <summary> After the parameter is declared click here </summary>
+  Once the parameter is declared, it can be accessed throghout the scope of the function. We are able to reference it and the value of the argument provided.
 
-* Declare a variable **within** one of your user defined functions. 
+  * Modify the process within the diceValueOne() function to make use of the size parameter that's being passed in. To see whats going on in more clearly, remove the other function calls of diceValue2-6() from the draw() function for the time being. (These functions can either be deleted or commented out).
+  
+  * Add a screenshot of the result below here.
+  
+  
+  * What modifications do we need to make to the code/function in order for the dice to resemble a classic dice? Write down some ideas of what modifications are required below.
+  
+  <details>
+    <summary> Click here to see how to use the parameters within code </summary>
+  
 
-Experiment with console.log(), log the value of the variable within different blocks of code. What is the output in the output window? Are there any errors? Add some screenshots below showing what happened.
+    The 
 
-* Create a new branch and commit your modifications.
+  </details>
 
-## Task - Experiment with each type of variable in different scopes.
-* Using the three different ways of declaring variables. User var, let and const declare three variables at **before** the setup() function call. Try and reassign each of the variables within the draw function and the user designed function. Add descriptions of what the outcome was below.
 
+  ## Task
+  * Make the same modifications to the other diceValueX() functions. 
+  Post screenshots below of the outcomes of adding the size parameter to the dice functions.
+
+  ## Extra task
+  * Can you add parameters for the position (x and y) of the dice? What modifications are required to make the dice resemble a classic dice when the position is modified? 
+  Post screenshots below of the outcomes of adding the position parameters to the dice functions.
+  
+</details>
 
 
 ## 📚  Resources / References
