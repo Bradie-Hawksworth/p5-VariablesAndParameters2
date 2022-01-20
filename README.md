@@ -34,7 +34,8 @@ Add a small description below stating why the addition of a parameter isn't brea
 <details>
   <summary> After the parameter is declared click here </summary>
   Once the parameter is declared, it can be accessed throghout the scope of the function. We are able to reference it and the value of the argument provided.
-
+  
+  
   * Modify the process within the diceValueOne() function to make use of the size parameter that's being passed in. To see whats going on in more clearly, remove the other function calls of diceValue2-6() from the draw() function for the time being. (These functions can either be deleted or commented out).
   
   * Add a screenshot of the result below here.
