@@ -48,6 +48,7 @@ Add a small description below stating why the addition of a parameter isn't brea
     <summary> Click here to see how to use the parameters within code </summary>
   ![image](https://user-images.githubusercontent.com/67816866/150339390-468ba508-6fb9-4dc2-87e0-69d62e9b07ff.png)
     
+   
     * Now that the parameter is being referenced within the function, we need to supply an argument. This is shown within the image above. (for some reason the image above isn't showing within this document, copying the link into a browser should show the image)
 
   </details>
@@ -59,9 +60,18 @@ Add a small description below stating why the addition of a parameter isn't brea
   ## Extra task
   * Can you add parameters for the position (x and y) of the dice? What modifications are required to make the dice resemble a classic dice when the position is modified? 
   Post screenshots below of the outcomes of adding the position parameters to the dice functions.
+  The syntax for multiple parameters is;
+
+  ```js 
+    function example(parameter , parameter2, parameter3, ... parameterX) {
+      console.log(parameter);
+      console.log(parameter1);
+      console.log(parameter2);
+      console.log(parameter3);
+    }
+   ```
   
 </details>
-
 
 ## 📚  Resources / References
 * [p5.js function reference](https://p5js.org/reference/#/p5/function)
